@@ -21,6 +21,7 @@
 		20E1711A1A1875A60021F1DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E170FC1A1875A60021F1DE /* UIKit.framework */; };
 		20E171221A1875A60021F1DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20E171201A1875A60021F1DE /* InfoPlist.strings */; };
 		20E171241A1875A60021F1DE /* testingViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E171231A1875A60021F1DE /* testingViewsTests.m */; };
+		20F03B511A19694D00583273 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F03B501A19694D00583273 /* Grid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		20E1711F1A1875A60021F1DE /* testingViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testingViewsTests-Info.plist"; sourceTree = "<group>"; };
 		20E171211A1875A60021F1DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20E171231A1875A60021F1DE /* testingViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingViewsTests.m; sourceTree = "<group>"; };
+		20F03B4F1A19694D00583273 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		20F03B501A19694D00583273 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +115,8 @@
 		20E170FE1A1875A60021F1DE /* testingViews */ = {
 			isa = PBXGroup;
 			children = (
-				20E171071A1875A60021F1DE /* AppDelegate.h */,
-				20E171081A1875A60021F1DE /* AppDelegate.m */,
+				20F03B4F1A19694D00583273 /* Grid.h */,
+				20F03B501A19694D00583273 /* Grid.m */,
 				20E1710A1A1875A60021F1DE /* Main.storyboard */,
 				20E1710D1A1875A60021F1DE /* ViewController.h */,
 				20E1710E1A1875A60021F1DE /* ViewController.m */,
@@ -126,6 +129,8 @@
 		20E170FF1A1875A60021F1DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20E171071A1875A60021F1DE /* AppDelegate.h */,
+				20E171081A1875A60021F1DE /* AppDelegate.m */,
 				20E171001A1875A60021F1DE /* testingViews-Info.plist */,
 				20E171011A1875A60021F1DE /* InfoPlist.strings */,
 				20E171041A1875A60021F1DE /* main.m */,
@@ -252,6 +257,7 @@
 				20E1710F1A1875A60021F1DE /* ViewController.m in Sources */,
 				20E171091A1875A60021F1DE /* AppDelegate.m in Sources */,
 				20E171051A1875A60021F1DE /* main.m in Sources */,
+				20F03B511A19694D00583273 /* Grid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				20E171291A1875A60021F1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20E1712A1A1875A60021F1DE /* Build configuration list for PBXNativeTarget "testingViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				20E1712C1A1875A60021F1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
